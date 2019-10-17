@@ -1,0 +1,201 @@
+@media (min-width: 480px) and (max-width: 767px) {
+	.page-wrap {
+		overflow-x: hidden;
+	}
+
+	.hamburger {
+		display: block;
+	}
+
+	.site-header {
+		height: 60px;
+	}
+
+	.main-logo {
+		position: relative;
+		z-index: 90;
+
+		span {
+			font-size: 23px;
+		}
+	}
+
+	body {
+		&.mobile-nav--opened {
+			overflow: hidden !important;
+
+			.main-nav {
+				visibility: visible;
+				opacity: 1;
+				z-index: 80;
+			}
+		}
+	}
+
+	.main-nav {
+		position: fixed;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    background: rgba(0,0,0, 0.98);
+	    visibility: hidden;
+	    opacity: 0;
+	    z-index: -1;
+	    transition: $transition;
+
+	    ul {
+	    	align-items: center;
+    	    justify-content: center;
+    	    flex-direction: column;
+    	    width: 100%;
+    	    height: 100%;
+
+    	    li {
+    	    	margin: 30px 0;
+
+    	    	a {
+    	    		font-size: 20px;
+    	    	}
+    	    }
+	    }
+	}
+
+	.homepage-slider-wrap {
+		.slide-text-wrap {
+			h2 {
+				font-size: 42px;
+				line-height: 1.4;
+			}
+
+			h5 {
+				margin-bottom: 30px;
+				font-size: 14px;
+			}
+
+			a {
+				font-size: 15px;
+			}
+		}
+
+		.slick-arrow {
+			display: none !important;
+		}
+	}
+
+	.video-bg {
+		.inline-YTPlayer {
+			height: 100%;
+			width: 100%;
+			max-width: none !important;
+		}
+
+		#bgndVideo {
+			width: 100%;
+			height: 100% !important;
+		}
+
+		#wrapper_bgndVideo {
+			width: 100%;
+			height: 100%;
+		}
+
+		#iframe_bgndVideo {
+			margin-top: -23% !important;
+		}
+	}
+
+	.site-footer {
+		height: 150px;
+		padding: 30px 0;
+	}
+
+	.footer-logo {
+		margin-top: 10px;
+	}
+
+	.copyright {
+		font-size: 12px;
+	}
+
+
+	.meet-us-wrap {
+		padding: 80px 0;
+
+		.container {
+			flex-direction: column;
+		}
+	}
+
+	.meet-info-wrap {
+		h2 {
+			font-size: 30px;
+		}
+
+		h5 {
+			margin-bottom: 25px;
+		}
+
+		.map-address {
+			padding: 18px 5px 13px 55px;
+
+			h4 {
+				margin-bottom: 8px;
+				font-size: 16px;
+			}
+
+			p {
+				font-size: 14px;
+				line-height: 1.4;
+			}
+		}
+	}
+
+	.meet-map-wrap {
+		padding: 120px 0 0;
+	}
+
+	.google-map {
+		width: 100%;
+		height: 700px;
+	}
+
+	.address-details-wrap {
+		right: -20px;
+		width: 200px;
+
+		.address-details {
+			top: -20px;
+			transform: none;
+			padding: 20px 15px;
+
+			.address-item {
+				margin-bottom: 10px;
+
+				p {
+					font-size: 12px;
+					line-height: 20px;
+				}
+			}
+
+			h3 {
+				font-size: 20px;
+			}
+
+			h5 {
+				margin-bottom: 20px;
+				font-size: 12px;
+			}
+
+			.address-title {
+				padding-left: 27px;
+				font-size: 14px;
+
+				&:before {
+					width: 17px;
+					background-size: contain !important;
+				}
+			}
+		}
+	}
+}

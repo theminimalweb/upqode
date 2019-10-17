@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../fonts/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Poppins-Bold.otf')  format('opentype'),
+         url('../fonts/Poppins-Bold.woff') format('woff'),
+         url('../fonts/Poppins-Bold.ttf')  format('truetype'),
+         url('../fonts/Poppins-Bold.svg#Poppins-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('../fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Poppins-SemiBold.otf')  format('opentype'),
+         url('../fonts/Poppins-SemiBold.woff') format('woff'),
+         url('../fonts/Poppins-SemiBold.ttf')  format('truetype'),
+         url('../fonts/Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Poppins-Regular.otf')  format('opentype'),
+         url('../fonts/Poppins-Regular.woff') format('woff'),
+         url('../fonts/Poppins-Regular.ttf')  format('truetype'),
+         url('../fonts/Poppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gilroy-Regular.woff') format('woff'),
+         url('../fonts/Gilroy-Regular.ttf')  format('truetype'),
+         url('../fonts/Gilroy-Regular.svg#Gilroy-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gilroy-SemiBold.woff') format('woff'),
+         url('../fonts/Gilroy-SemiBold.ttf')  format('truetype'),
+         url('../fonts/Gilroy-SemiBold.svg#Gilroy-SemiBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gilroy-Bold.woff') format('woff'),
+         url('../fonts/Gilroy-Bold.ttf')  format('truetype'),
+         url('../fonts/Gilroy-Bold.svg#Gilroy-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
+         url('../fonts/Gilroy-ExtraBold.ttf')  format('truetype'),
+         url('../fonts/Gilroy-ExtraBold.svg#Gilroy-ExtraBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Poppins-ExtraBold';
+    src: url('../fonts/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Poppins-ExtraBold.otf')  format('opentype'),
+         url('../fonts/Poppins-ExtraBold.woff') format('woff'),
+         url('../fonts/Poppins-ExtraBold.ttf')  format('truetype'),
+         url('../fonts/Poppins-ExtraBold.svg#Poppins-ExtraBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+$bold: 'Poppins-Bold';
+$semibold: 'Poppins-SemiBold';
+$regular: 'Poppins-Regular';
+$extrabold: 'Poppins-ExtraBold';
+$gilroy-regular: 'Gilroy-Regular';
+$gilroy-semibold: 'Gilroy-SemiBold';
+$gilroy-bold: 'Gilroy-Bold';
+$gilroy-extrabold: 'Gilroy-ExtraBold';
